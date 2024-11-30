@@ -1,0 +1,109 @@
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+#logo-highcharts {
+    width: 1rem;
+    height: 1rem;
+}
+h1 {
+    font-size: .875rem;
+    font-weight: 400;
+    letter-spacing: .1em;
+    margin: 0 5px 0 5px;
+}
+ /* a:focus, button:focus {
+    outline: 2px solid red;
+    outline-offset: 2px; 
+    background-color: #f67272;
+}  */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+.playcontrols-inner-container {
+    max-width: 900px;
+    /* background-color: #ebeffa; */
+    color: #25386f;
+    /* display: flex; */
+    align-items: center;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.playControlItem {
+    margin: 5px 8px;
+}
+.play-buttons-container, .logo-wrapper {
+    display: flex;
+}
+.play-buttons-container {
+    margin-left: auto;
+}
+.logo-wrapper {
+    margin-left: 8px;
+}
+button {
+    background-color: #ffffff;
+    /* color: #ffffff; */
+    font: inherit;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 40px;
+    border: 0px;
+}
+
+button:hover {
+    background-color: #fbdbdb;
+    /* border: 2px solid #25386f; */
+}
+
+.button_pressed {
+    background-color: #f67272;
+}
+
+a:visited {
+    color: inherit;
+}
+
+#buttons-div {
+    width: inherit;
+    height: inherit;
+    justify-self: right;
+    /* background-color:#ebeffa; 
+    border-radius: 5px; */
+}
+
+.icon {
+    scale: 30%;
+    padding: 0px;
+    margin: -20px;
+}
+
+.description{
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.trend-rectangle{
+    width: 900px;
+    /* height: 150px; */
+    background-color: #c6e6fb;
+    border-radius: 5px;
+}
+
+.trend-description{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 24px;
+    font-weight: 400;
+}
